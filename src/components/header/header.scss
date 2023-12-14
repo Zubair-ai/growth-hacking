@@ -1,0 +1,76 @@
+.header{
+    height: 5rem;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    .header-container{
+        display: flex;
+        .header-left{
+            flex: 0.1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .header-right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .right-address{
+                flex: 2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .address-time{
+                    flex:2;
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    .time{
+                        display: flex;
+                        align-items: center;
+                        gap: 0.4rem;
+
+                    }
+                    .address{
+                        display: flex;
+                        align-items: center;
+                        gap: 0.4rem;
+
+                    }
+                }
+                .social-icons{
+                    flex:0.8;
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                }
+            }
+            .right-divider{
+
+            }
+            .right-menu{
+                display: flex;
+                justify-content: space-between;
+
+                .menu{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                .menu-contact{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .number{
+
+                    }
+                
+                }
+
+            }
+        }
+    }
+}

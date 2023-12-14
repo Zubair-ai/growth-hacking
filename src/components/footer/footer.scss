@@ -1,0 +1,36 @@
+.footer{
+    background-color: #262626 ;
+    color: white;
+   .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-Top: 2rem;
+    padding-bottom: 2rem;
+    .footer-first{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        .first-log{
+            flex: 0.5;
+        }
+        .footer-links{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+    .footer-second{
+        display: flex;
+        gap: 2rem;
+         .fo-1{
+            flex: 0.5;
+            }
+            .fo-2{
+                flex: 1;
+            }
+        
+    }
+   }
+}
